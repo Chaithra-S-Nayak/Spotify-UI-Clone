@@ -204,6 +204,16 @@ document.addEventListener("DOMContentLoaded", () => {
       currentSong.currentTime = percent * currentSong.duration;
     });
 
+    // Toggle the sidebar menu
+    document.querySelector(".hamburger").addEventListener("click", () => {
+      document.querySelector(".left").style.left = "0";
+    });
+
+    // Close the sidebar menu
+    document.querySelector(".close").addEventListener("click", () => {
+      document.querySelector(".left").style.left = "-120%";
+    });
+
     // Play the previous song
     document.querySelector("#previous").addEventListener("click", () => {
       if (currentlyPlayingIndex > 0) {

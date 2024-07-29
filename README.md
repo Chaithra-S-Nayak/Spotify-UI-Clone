@@ -1,6 +1,6 @@
 # Spotify-UI-Clone
 
-This project was developed as part of the IBM SkillBuild Internship. The website is built using HTML, CSS, and JavaScript technologies. It is a responsive and user-friendly web application that allows users to play music.
+This project was developed as part of the Edunet Foundation Internship. The website is built using HTML, CSS, and JavaScript technologies. It is a responsive and user-friendly web application that allows users to play music.
 
 ## Tech-Stack
 
